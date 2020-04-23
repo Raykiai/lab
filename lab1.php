@@ -23,7 +23,7 @@ if(isset($_POST['btn_save'])){
 
 </head>
 <body>
-<form method ="post">
+<form method ="post" name="user_details" id="user_details" onsubmit="return validateForm()" action="<?=$_SERVER['PHP_SELF']?>" >
 <table align="center">
 <tr>
 <td><input type="text" name="first_name" required placeholder="First Name" /> </td>
