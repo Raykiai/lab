@@ -1,6 +1,7 @@
 <html>
 <head>
-<title>Title goes here</title>
+<title>Lab1 </title>
+<script type="text/javascript" src="validate.js"> </script>
 <?php
 include_once 'DBConnector.php';
 include_once 'user.php';
